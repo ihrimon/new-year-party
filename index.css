@@ -1,0 +1,91 @@
+/* Shared style */
+*{
+    margin: 0;
+    /* color: #070211; */
+}
+
+.section-size{
+    max-width: 1320px;
+}
+
+.text-position{
+    text-align: center;
+}
+
+.heading{
+    font-size: 72px;
+    font-family: "Merriweather", serif;
+}
+
+.text-color{
+    color: #FF0000;
+}
+
+h3{
+    font-size: 32px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+}
+
+.header{
+    background-image: url('images/Banner\ Image.png');
+    position: center;
+    height: 600px;
+    color: #FFFFFF;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+/* Discount styles */
+.discount{
+    text-align: center;
+    margin: 100px;
+    font-family: "Inter", sans-serif;}
+
+.heading-65{
+    font-size: 88px;
+}
+
+.welcome{
+    background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 600px;
+    color: #FFFFFF;
+    font-family: "Merriweather", serif;
+    text-align: left;
+    align-items: center;
+
+}
+
+/* Join Now styles */
+.join-now{
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 0, 0, 0.164));;
+    height: 480px;
+    margin: 100px 0;
+}
+
+/* Coming Soon styles */
+.coming-soon{
+    display: flex;
+    margin: 0 200px;
+    justify-content: space-between;
+}
+
+/* Holidays */
+.holydays{
+    text-align: center;
+}
+.discount-50{
+    background-image: url('images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    margin: 100px 200px;
+    display: flex;
+}
+
+/* footer styles */
+footer{
+    background-color: #070211;
+    height: 600px;
+}
