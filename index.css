@@ -26,6 +26,13 @@
     font-weight: 300;
     font-size: 20px;
 }
+
+.font-size-48{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
 /* -----------------------End----------------------------- */
 
 
@@ -271,49 +278,48 @@ header{
 /* -----------------------End----------------------------- */
 
 
-/* Subscribe styles */
+/* Subscribe styles ‍start */
 .subscribe-container{
     background-color: #ff000013;
-    width: 1320px;
     margin: auto;
 }
 
 .subscribe{
     text-align: center;
-    margin: 140px;
-    padding: 100px;
+    padding: 100px 280px;
+    margin: 100px 0;
 }
 
 /* Subscribe button */
-/* .buttonIn {
-    width: 300px;
+.button-subscribe {
+    width: 400px;
     position: relative;
+    margin: auto;
+    margin-top: 30px;
 }
 
 input {
     margin: 0px;
-    padding: 0px;
+    padding: 12px 0px 12px 20px;
     width: 100%;
-    outline: none;
     height: 30px;
     border-radius: 50px;
+    border: 0;
 }
 
 button {
     position: absolute;
-    top: 0;
-    border-radius: 50px;
-    right: 0px;
-    z-index: 2;
-    border: none;
-    top: 2px;
-    height: 30px;
-    cursor: pointer;
-    color: white;
     background-color: #FF0000;
-    transform: translateX(2px);
-} */
-/* Subscribe button */
+    top: 0;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    right: -20px;
+    height: 50px;
+    width: 120px;
+    color: white;
+}
+
 /* footer styles */
 footer{
     background-color: #070211;
