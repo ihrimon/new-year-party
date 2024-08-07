@@ -133,7 +133,7 @@ header{
 
 /* Join Now styles */
 .join-now-container{
-    background-image: linear-gradient(to top, rgba(253, 46, 46, 0), rgba(255, 0, 0, 0.164));;
+    background-image: linear-gradient(to top, #fd2e2e00, rgba(255, 0, 0, 0.164));
     height: 480px;
     margin: 100px auto;
     display: flex;
@@ -214,18 +214,33 @@ header{
 
 /* Holidays */
 .holidays-container{
-    width: 1320px;
-    margin: auto;
-}
-.holydays{
+    background-image: linear-gradient(to top, #fd2e2e00, rgba(255, 0, 0, 0.075));
+    margin: 130px auto;
     text-align: center;
-    margin: auto;
 }
+
+.holidays{
+    margin: 20px ;
+    padding: 100px;
+}
+
+.functional-font{
+    font-size: 24px;
+    font-weight: 600;
+}
+.holidays-font{
+    font-size: 72px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
 .discount-50{
-    background-image: url('images/Rectangle\ 2.png');
-    background-repeat: no-repeat;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+/* -----------------------End----------------------------- */
+
 
 /* Portfolio container */
 .portfolio-container{
