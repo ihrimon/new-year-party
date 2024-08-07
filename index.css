@@ -6,6 +6,7 @@
 
 .container{
     width: 1320px;
+    margin: auto;
 }
 
 .text-color{
@@ -23,6 +24,7 @@
 .line-height{
     line-height: 30px;
     font-weight: 300;
+    font-size: 20px;
 }
 /* -----------------------End----------------------------- */
 
@@ -131,7 +133,7 @@ header{
 
 /* Join Now styles */
 .join-now-container{
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 0, 0, 0.164));;
+    background-image: linear-gradient(to top, rgba(253, 46, 46, 0), rgba(255, 0, 0, 0.164));;
     height: 480px;
     margin: 100px auto;
     display: flex;
@@ -155,17 +157,60 @@ header{
     font-weight: 800;
     margin-top: 40px;
 }
+/* -----------------------End----------------------------- */
+
 
 /* Coming Soon styles */
-.coming-soon-container{
-    width: 1320px;
-}
-
 .coming-soon{
     display: flex;
-    margin: 0 200px;
     justify-content: space-between;
+    align-items: center;
 }
+
+.coming-section1{
+    width: 395px;
+    margin: 25px;
+
+}
+
+.coming-section3{
+    width: 280px;
+    margin-left: 60px;
+}
+
+.best-offer{
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF0000;
+}
+
+.coming-soon-font{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
+.party-img{
+    border: 20px solid red;
+    border-radius: 50%;
+}
+
+.party-img img{
+    border: 40px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.happy-img{
+    margin-top: 40px;
+}
+
+.style-2024{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+/* -----------------------End----------------------------- */
+
 
 /* Holidays */
 .holidays-container{
