@@ -4,42 +4,58 @@
     /* color: #070211; */
 }
 
-.section-size{
-    max-width: 1320px;
-}
-
-.text-position{
-    text-align: center;
-}
-
-.heading{
-    font-size: 72px;
-    font-family: "Merriweather", serif;
+.container{
+    width: 1320px;
 }
 
 .text-color{
     color: #FF0000;
 }
 
-h3{
-    font-size: 32px;
-    font-family: "Merriweather", serif;
-    font-weight: 400;
+/* -----------------------End----------------------------- */
+
+/* Banner styles start */
+header{
+    background-image: linear-gradient(to bottom, rgba(7, 1, 17, 0.89), rgba(136, 136, 136, 0.103)), url('images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin: auto;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.header{
-    background-image: url('images/Banner\ Image.png');
-    position: center;
-    height: 600px;
+.banner-content{
     color: #FFFFFF;
+    font-family: "Merriweather", serif;
+    align-items: center;
     justify-content: center;
-    margin: 50px auto;
+    text-align: center;
 }
+
+.heading{
+    font-size: 72px;
+    font-weight: 800;
+}
+
+.sub-heading{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.header-top{
+    margin-top: 40px;
+}
+
+/* -----------------------End----------------------------- */
 
 /* Discount styles */
 .discount{
     text-align: center;
-    margin: 100px;
+    margin: 100px auto;
     font-family: "Inter", sans-serif;}
 
 .heading-65{
@@ -67,6 +83,10 @@ h3{
 }
 
 /* Coming Soon styles */
+.coming-soon-container{
+    width: 1320px;
+}
+
 .coming-soon{
     display: flex;
     margin: 0 200px;
@@ -74,18 +94,95 @@ h3{
 }
 
 /* Holidays */
+.holidays-container{
+    width: 1320px;
+    margin: auto;
+}
 .holydays{
     text-align: center;
+    margin: auto;
 }
 .discount-50{
     background-image: url('images/Rectangle\ 2.png');
     background-repeat: no-repeat;
-    margin: 100px 200px;
     display: flex;
 }
 
+/* Portfolio container */
+.portfolio-container{
+    width: 1320px;
+    margin: auto;
+}
+
+/* Subscribe styles */
+.subscribe-container{
+    background-color: #ff000013;
+    width: 1320px;
+    margin: auto;
+}
+
+.subscribe{
+    text-align: center;
+    margin: 140px;
+    padding: 100px;
+}
+
+/* Subscribe button */
+.buttonIn {
+    width: 300px;
+    position: relative;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 50px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    border-radius: 50px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #FF0000;
+    transform: translateX(2px);
+}
+/* Subscribe button */
 /* footer styles */
 footer{
     background-color: #070211;
-    height: 600px;
+    color: #FFFFFF;
+    padding: 120px 280px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+
+.social-icons{
+    margin: 40px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    margin-right: 20px;
+}
+
+.copy-write{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
 }
