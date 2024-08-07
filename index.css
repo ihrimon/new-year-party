@@ -33,6 +33,13 @@
     margin: 30px 0;
 }
 
+.font-size-24{
+    font-size: 24;
+    font-weight: 600;
+    margin: 10px;
+    line-height: 30px;
+}
+
 /* -----------------------End----------------------------- */
 
 
@@ -41,10 +48,10 @@ header{
     background-image: linear-gradient(to bottom, rgba(7, 1, 17, 0.89), rgba(136, 136, 136, 0.103)), url('images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 16px;
+    width: 1320px;
     height: 600px;
     margin: auto;
-    width: 1320px;
-    border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +71,7 @@ header{
 
 .sub-heading{
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -84,12 +91,6 @@ header{
     font-size: 88px;
     font-weight: 800;
     margin-bottom: 30px;
-}
-
-.heading-holiday-deals{
-    font-size: 24px;
-    font-weight: 600;
-    margin: 20px 0;
 }
 
 .heading-all-categories{
@@ -138,7 +139,7 @@ header{
 /* -----------------------End----------------------------- */
 
 
-/* Join Now styles */
+/* Join Now styles start */
 .join-now-container{
     background-image: linear-gradient(to top, #fd2e2e00, rgba(255, 0, 0, 0.164));
     height: 480px;
@@ -167,7 +168,7 @@ header{
 /* -----------------------End----------------------------- */
 
 
-/* Coming Soon styles */
+/* Coming Soon styles start */
 .coming-soon{
     display: flex;
     justify-content: space-between;
@@ -219,7 +220,7 @@ header{
 /* -----------------------End----------------------------- */
 
 
-/* Holidays */
+/* Holidays styles start*/
 .holidays-container{
     background-image: linear-gradient(to top, #fd2e2e00, rgba(255, 0, 0, 0.075));
     margin: 130px auto;
@@ -249,16 +250,10 @@ header{
 /* -----------------------End----------------------------- */
 
 
-/* Portfolio container */
+/* Portfolio styles start */
 .portfolio-container{
     width: 1320px;
     margin: auto;
-}
-
-.best-font{
-    font-size: 24px;
-    font-weight: 600;
-    color: #FF0000;
 }
 
 .awesome-font{
@@ -290,7 +285,6 @@ header{
     margin: 100px 0;
 }
 
-/* Subscribe button */
 .button-subscribe {
     width: 400px;
     position: relative;
@@ -307,7 +301,7 @@ input {
     border: 0;
 }
 
-button {
+.button-style3 {
     position: absolute;
     background-color: #FF0000;
     top: 0;
@@ -320,27 +314,30 @@ button {
     color: white;
 }
 
-/* footer styles */
+/* footer styles start */
 footer{
     background-color: #070211;
     color: #FFFFFF;
     padding: 120px 280px;
+    margin: auto;
+    display: flex;
 }
 
 .contact{
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
-}
-
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.082);
+} 
 
 .social-icons{
-    margin: 40px auto;
-    align-items: center;
-    justify-content: center;
+    padding-bottom: 40px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.082);
+    text-align: center;
 }
 
-.icon{
+.social-icons img{
     margin-right: 20px;
 }
 
@@ -348,4 +345,5 @@ footer{
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
-}
+} 
+/* -----------------------End----------------------------- */
