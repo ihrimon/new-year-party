@@ -19,6 +19,11 @@
 .inter-font{
     font-family: "Inter", sans-serif;
 }
+
+.line-height{
+    line-height: 30px;
+    font-weight: 300;
+}
 /* -----------------------End----------------------------- */
 
 
@@ -86,17 +91,43 @@ header{
 /* -----------------------End----------------------------- */
 
 
-.welcome{
-    background-image: url('images/Vectorrr.png');
+/* Welcome styles start */
+.welcome-container{
+    background-image: linear-gradient(to right, rgba(7, 1, 17, 0.89), rgba(136, 136, 136, 0.103)), url('images/Vectorrr.png');
     background-repeat: no-repeat;
     margin: auto;
     height: 600px;
-    color: #FFFFFF;
-    font-family: "Merriweather", serif;
-    text-align: left;
-    align-items: center;
-
 }
+
+.welcome-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 67px 100px;
+}
+
+.heading-welcome{
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.welcome-content p{
+    font-size: 18px;
+    width: 695px;
+}
+
+.button-style1{
+    font-size: 20;
+    font-weight: 800;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 0;
+    margin: 40px 20px;
+}
+/* -----------------------End----------------------------- */
+
 
 /* Join Now styles */
 .join-now{
@@ -152,7 +183,7 @@ header{
 }
 
 /* Subscribe button */
-.buttonIn {
+/* .buttonIn {
     width: 300px;
     position: relative;
 }
@@ -179,7 +210,7 @@ button {
     color: white;
     background-color: #FF0000;
     transform: translateX(2px);
-}
+} */
 /* Subscribe button */
 /* footer styles */
 footer{
