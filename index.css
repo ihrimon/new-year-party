@@ -130,11 +130,30 @@ header{
 
 
 /* Join Now styles */
-.join-now{
-    text-align: center;
+.join-now-container{
     background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 0, 0, 0.164));;
     height: 480px;
-    margin: 100px 0;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-now{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.button-style2{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-size: 20;
+    font-weight: 800;
+    margin-top: 40px;
 }
 
 /* Coming Soon styles */
