@@ -248,6 +248,29 @@ header{
     margin: auto;
 }
 
+.best-font{
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF0000;
+}
+
+.awesome-font{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.dolor-width{
+    width: 900px;
+    margin-bottom: 40px;
+}
+
+.img-margin img{
+    margin: 0 10px 10px 0;
+}
+/* -----------------------End----------------------------- */
+
+
 /* Subscribe styles */
 .subscribe-container{
     background-color: #ff000013;
