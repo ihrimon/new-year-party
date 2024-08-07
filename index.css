@@ -12,7 +12,15 @@
     color: #FF0000;
 }
 
+.merriweather-font{
+    font-family: "Merriweather", serif;
+}
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+}
 /* -----------------------End----------------------------- */
+
 
 /* Banner styles start */
 header{
@@ -22,6 +30,7 @@ header{
     height: 600px;
     margin: auto;
     width: 1320px;
+    border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +38,6 @@ header{
 
 .banner-content{
     color: #FFFFFF;
-    font-family: "Merriweather", serif;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -49,18 +57,34 @@ header{
 .header-top{
     margin-top: 40px;
 }
-
 /* -----------------------End----------------------------- */
 
-/* Discount styles */
+
+/* Discount styles start */
 .discount{
     text-align: center;
     margin: 100px auto;
-    font-family: "Inter", sans-serif;}
+}
 
 .heading-65{
     font-size: 88px;
+    font-weight: 800;
+    margin-bottom: 30px;
 }
+
+.heading-holiday-deals{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.heading-all-categories{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+/* -----------------------End----------------------------- */
+
 
 .welcome{
     background-image: url('images/Vectorrr.png');
